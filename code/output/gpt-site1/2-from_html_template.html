@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gefälscht CompuTech</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0;
+        }
+        .odd_row {
+            background-color: #f2f2f2;
+        }
+        .even_row {
+            background-color: #ffffff;
+        }
+    </style>
+    <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('table.data_table tbody tr:odd td').addClass('odd_row');
+            $('table.data_table tbody tr:even td').addClass('even_row');
+        });
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Gefälscht CompuTech</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.php">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/laptopsandnotebooks.php">Laptops & Notebooks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/desktops.php">Desktops</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/cart.php">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/support.php">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.php">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="container my-4">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Welcome to Gefälscht CompuTech</h1>
+                <p><em>Gefälscht</em> - German for "Fake". This is a fake website, created by Deque Systems, for use during training. Our clients are pointed to this site so that we can train them using an inaccessible site without having to point to the site of a real company. This site has a number of intentional accessibility problems. It is not an example of how to do things but rather how <strong>not</strong> to do them. If you're interested in knowing how you can make an accessible website, need help making your website accessible, or want to have your website tested for accessibility, please <a href="https://www.deque.com" target="_blank">contact Deque Systems</a>.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="https://webtestingcourse.dequecloud.com/images/site/homeLanding.jpg" class="img-fluid" alt="Welcome Image">
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://webtestingcourse.dequecloud.com/images/site/small60-1.jpg" class="card-img-top" alt="Parts and Supplies Image">
+                    <div class="card-body">
+                        <h2 class="card-title h5">Parts and Supplies</h2>
+                        <p class="card-text">We sell parts and supplies for every computer we sell and even some that we don't. If we don't have a part, it doesn't exist. If it does exist and we don't have it, we'll get it. If we can't get it, we'll steal it. That's how we roll.</p>
+                        <a href="support.php" class="btn btn-primary">Continue Reading »</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://webtestingcourse.dequecloud.com/images/site/small60-2.jpg" class="card-img-top" alt="Brick & Mortar Store Image">
+                    <div class="card-body">
+                        <h2 class="card-title h5">Visit our Brick & Mortar Store</h2>
+                        <p class="card-text">Look at that picture. Isn't it great? Want a bigger version? Go to <a href="contact.php">this page</a> and take a closer look. Our opulently appointed corporate offices are located in the finest strip mall within miles. We think you'll agree that our place is the place among places when you think of a place that does our sort of thing.</p>
+                        <a href="contact.php" class="btn btn-primary">Continue Reading »</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://webtestingcourse.dequecloud.com/images/site/small60-3.jpg" class="card-img-top" alt="In Home Computer Service Image">
+                    <div class="card-body">
+                        <h2 class="card-title h5">In Home Computer Service</h2>
+                        <p class="card-text">You don't like our place? Then we'll come to your place. We can fix your stuff in your home for a sizeable surcharge. We'll get there at a time that is incredibly inconvenient to you and come unprepared for the task at hand. You'll tell all your friends what great service you received!</p>
+                        <a href="support.php" class="btn btn-primary">Continue Reading »</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bd-footer py-4 py-md-5 mt-5 bg-body-tertiary">
+        <div class="container px-4 px-md-3">
+            <div class="row">
+                <div class="col-lg-3 mb-3">
+                    <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href="/" aria-label="Gefälscht CompuTech Home">
+                        <img width="50" src="https://webtestingcourse.dequecloud.com/images/site/logo.png" alt="Gefälscht Logo">
+                        <span class="fs-5">Gefälscht CompuTech</span>
+                    </a>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2">Copyright © 2025 - All Rights Reserved</li>
+                    </ul>
+                </div>
+                <div class="col-lg-9 mb-3">
+                    <h2 class="h5">Site Map</h2>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a class="link-body-emphasis" href="/index.php">Home</a></li>
+                        <li class="mb-2"><a class="link-body-emphasis" href="/laptopsandnotebooks.php">Laptops & Notebooks</a></li>
+                        <li class="mb-2"><a class="link-body-emphasis" href="/desktops.php">Desktops</a></li>
+                        <li class="mb-2"><a class="link-body-emphasis" href="/cart.php">Cart</a></li>
+                        <li class="mb-2"><a class="link-body-emphasis" href="/support.php">Support</a></li>
+                        <li class="mb-2"><a class="link-body-emphasis" href="/contact.php">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

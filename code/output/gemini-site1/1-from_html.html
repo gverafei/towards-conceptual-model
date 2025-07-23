@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Gefälscht CompuTech - Home</title>
+<meta name="robots" content="noindex, nofollow">
+<style type="text/css">
+/* sr-only class for visually hidden elements */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Reset CSS - Corrected focus outline */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/* Define visible focus styles */
+:focus {
+	outline: 2px solid #007bff; /* A clear blue outline */
+    outline-offset: 2px;
+}
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Layout CSS - Corrected color contrasts */
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #BBBBBB; /* Corrected contrast from #919191 on #000 */
+	background-color: #000;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	display: block;
+	overflow: hidden;
+}
+
+/* Utility for clearing floats without extra markup */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* ----------------------------------------------
+   Header
+---------------------------------------------- */
+
+header { /* Changed from #header to header element */
+	display: block;
+	width: 100%;
+	padding: 20px 0;
+	color: #FFFFFF;
+	background-color: #2F2F2F;
+    overflow: hidden; /* For clearing floats within */
+}
+
+header .fl_left {
+	display: block;
+	float: left;
+	width: 50%;
+}
+
+header h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 48px;
+	font-weight: normal;
+	line-height: 48px;
+}
+
+header h1 a {
+	color: #FFFFFF;
+	background-color: #2F2F2F;
+	text-decoration: none;
+}
+
+header p {
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	line-height: 1.2em;
+}
+
+/* Top Bar Utility (Contact and Search) */
+#topbar_utility { /* New ID for the utility section */
+	display: block;
+	float: right;
+	width: 45%; /* Adjust width as needed */
+	padding: 0;
+	color: #BBBBBB; /* Corrected contrast */
+}
+
+#topbar_utility p {
+	margin: 0 0 10px 0; /* Add some space below contact info */
+	padding: 0;
+	line-height: 1.2em;
+}
+
+#topbar_utility p a {
+    color: #BBBBBB; /* Corrected contrast */
+    text-decoration: none;
+}
+
+#topbar_utility p a:hover, #topbar_utility p a:focus {
+    color: #FFFFFF;
+}
+
+#topbar_utility form {
+	display: block;
+	float: right;
+	width: 100%; /* Adjust width as needed */
+	margin: 0;
+	padding: 0;
+}
+
+#topbar_utility form fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#topbar_utility form input[type="text"] { /* Specific selector for text input */
+	display: block;
+	float: right;
+	width: 170px;
+	margin: 0;
+	padding: 5px;
+	color: #333333; /* Corrected contrast from #919191 on #FFFFFF */
+	background-color: #FFFFFF;
+	border: 1px solid #666666;
+	font-size: 12px;
+}
+
+#topbar_utility form input#go {
+	width: 50px;
+	height: 27px;
+	margin: 0 0 0 10px;
+	padding: 0;
+	color: #FFFFFF;
+	background-color: #333333; /* Corrected contrast from #666666 */
+	border: none;
+	cursor: pointer;
+}
+
+/* ----------------------------------------------
+   Navigation
+---------------------------------------------- */
+
+nav { /* Changed from #topnav to nav element */
+	display: block;
+	width: 100%;
+	padding: 15px 0; /* Moved padding from #topbar */
+	background-color: #2F2F2F;
+    overflow: hidden; /* For clearing floats within */
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+    float: right; /* Keep navigation to the right */
+}
+
+nav li {
+	display: inline;
+	margin: 0 20px 0 0;
+	padding: 0;
+}
+
+nav li.last {
+	margin-right: 0;
+}
+
+nav li a {
+	color: #BBBBBB; /* Corrected contrast from #919191 on #2F2F2F */
+	background-color: #2F2F2F;
+	text-decoration: none;
+}
+
+nav li.active a, nav li a:hover, nav li a:focus { /* Added focus */
+	color: #FFFFFF;
+	background-color: #2F2F2F;
+}
+
+/* ----------------------------------------------
+   Main Content Sections
+---------------------------------------------- */
+main {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+#intro {
+	display: block;
+	width: 100%;
+	padding: 20px 0;
+	color: #BBBBBB; /* Corrected contrast from #919191 on #000 */
+	background-color: #000;
+	overflow: hidden;
+}
+
+#intro .fl_left {
+	display: block;
+	float: left;
+	width: 45%;
+}
+
+#intro .fl_right {
+	display: block;
+	float: right;
+	width: 50%;
+}
+
+#intro h2 { /* Changed from h3 to h2 */
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 1.2em;
+	color: #FFFFFF;
+	background-color: #000;
+}
+
+#intro p {
+	margin: 0;
+	padding: 0;
+	line-height: 1.6em;
+}
+
+#intro p a {
+	color: #FFFFFF;
+	background-color: #000;
+	text-decoration: none;
+}
+
+/* Homepage Content */
+#homecontent {
+	display: block;
+	width: 100%;
+	padding: 20px 0;
+	color: #BBBBBB; /* Corrected contrast from #919191 on #2F2F2F */
+	background-color: #2F2F2F;
+	overflow: hidden;
+}
+
+#homecontent ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#homecontent li {
+	display: block;
+	float: left;
+	width: 300px;
+	margin: 0 30px 0 0;
+	padding: 0;
+}
+
+#homecontent li.last {
+	margin-right: 0;
+}
+
+#homecontent li h3 { /* Changed from h2 to h3 */
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 1.2em;
+	color: #FFFFFF;
+	background-color: #2F2F2F;
+}
+
+#homecontent li img {
+	margin: 0 0 10px 0;
+	padding: 3px;
+	border: 1px solid #666666;
+}
+
+#homecontent li p {
+	margin: 0 0 10px 0;
+	padding: 0;
+	line-height: 1.6em;
+}
+
+#homecontent li p.readmore {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+
+#homecontent li p.readmore a {
+	color: #FFFFFF;
+	background-color: #2F2F2F;
+	text-decoration: none;
+}
+
+/* Image Line */
+#imageline {
+	display: block;
+	width: 100%;
+	padding: 20px 0;
+	color: #BBBBBB; /* Corrected contrast from #919191 on #000 */
+	background-color: #000;
+	overflow: hidden;
+}
+
+#imageline ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#imageline li {
+	display: block;
+	float: left;
+	width: 174px;
+	margin: 0 30px 0 0;
+	padding: 0;
+}
+
+#imageline li.last {
+	margin-right: 0;
+}
+
+#imageline li img {
+	margin: 0;
+	padding: 3px;
+	border: 1px solid #666666;
+}
+
+/* ----------------------------------------------
+   Footer
+---------------------------------------------- */
+
+footer { /* Changed from #footer to footer element */
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+footer #footer { /* Retain #footer for internal structure */
+	display: block;
+	width: 100%;
+	padding: 20px 0;
+	color: #BBBBBB; /* Corrected contrast from #919191 on #2F2F2F */
+	background-color: #2F2F2F;
+	overflow: hidden;
+}
+
+footer .footbox {
+	display: block;
+	float: left;
+	width: 160px;
+	margin: 0 40px 0 0;
+	padding: 0;
+}
+
+footer .footbox.last {
+	margin-right: 0;
+}
+
+footer h3 { /* Changed from h2 to h3 */
+	margin: 0 0 15px 0;
+	padding: 0 0 8px 0;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.2em;
+	color: #FFFFFF;
+	background-color: #2F2F2F;
+	border-bottom: 1px dotted #666666;
+}
+
+footer ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+footer li {
+	margin: 0 0 8px 0;
+	padding: 0;
+}
+
+footer li a {
+	color: #BBBBBB; /* Corrected contrast from #919191 on #2F2F2F */
+	background-color: #2F2F2F;
+	text-decoration: none;
+}
+
+footer li a:hover, footer li a:focus { /* Added focus */
+	color: #FFFFFF;
+	background-color: #2F2F2F;
+}
+
+/* Copyright */
+#copyright {
+	display: block;
+	width: 100%;
+	padding: 20px 0;
+	color: #BBBBBB; /* Corrected contrast from #919191 on #000 */
+	background-color: #000;
+	overflow: hidden;
+}
+
+#copyright p {
+	margin: 0;
+	padding: 0;
+}
+
+#copyright .fl_left {
+	display: block;
+	float: left;
+	width: auto;
+}
+
+#copyright .fl_right {
+	display: block;
+	float: right;
+	width: auto;
+}
+
+#copyright a {
+	color: #BBBBBB; /* Corrected contrast from #919191 on #000 */
+	background-color: #000;
+	text-decoration: none;
+}
+
+#copyright a:hover, #copyright a:focus { /* Added focus */
+	color: #FFFFFF;
+	background-color: #000;
+}
+
+/* Styles for table row striping (from JS snippet) */
+table.data_table tbody tr td.odd_row {
+    background-color: #1A1A1A; /* Darker for contrast */
+    color: #BBBBBB; /* Ensure text contrast */
+}
+table.data_table tbody tr td.even_row {
+    background-color: #2F2F2F; /* Section background */
+    color: #BBBBBB; /* Ensure text contrast */
+}
+
+/* Original courseAssets fix */
+.courseAssets {
+	color: #000 !important;
+}
+</style>
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript">
+            /* jQuery snippet for row striping */
+            $(document).ready(function() {
+                $('table.data_table tbody tr:odd td').addClass('odd_row');
+                $('table.data_table tbody tr:even td').addClass('even_row');
+            });
+        </script>
+</head>
+<body id="top">
+<a class="sr-only" href="#main-content">Skip to main content</a>
+<div class="wrapper">
+<header>
+  <div class="fl_left">
+    <h1><a href="https://webtestingcourse.dequecloud.com/">Gefälscht CompuTech</a></h1>
+    <p>Gefälscht - German for "Fake"</p>
+  </div>
+  <div id="topbar_utility">
+    <p>Tel: 703-555-1212 | Mail: <a href="mailto:info@deque.com">info@deque.com</a></p>
+    <form action="https://webtestingcourse.dequecloud.com/search.php" method="get" role="search">
+      <fieldset>
+        <legend class="sr-only">Site Search</legend>
+        <label for="search-input" class="sr-only">Search the site</label>
+        <input type="text" name="q" id="search-input" placeholder="Search the site…">
+        <input type="submit" name="go" id="go" value="GO">
+      </fieldset>
+    </form>
+  </div>
+</header>
+<nav id="topnav" aria-label="Main navigation">
+  <div class="wrapper">
+    <ul><li class="active"><a href="https://webtestingcourse.dequecloud.com/index.php" aria-current="page">Home</a></li><li><a href="https://webtestingcourse.dequecloud.com/laptopsandnotebooks.php">Laptops &amp; Notebooks</a></li><li><a href="https://webtestingcourse.dequecloud.com/desktops.php">Desktops</a></li><li><a href="https://webtestingcourse.dequecloud.com/cart.php">Cart</a></li><li><a href="https://webtestingcourse.dequecloud.com/support.php">Support</a></li><li class="last"><a href="https://webtestingcourse.dequecloud.com/contact.php">Contact</a></li></ul>
+  </div>
+</nav>
+
+<main id="main-content">
+<section id="intro">
+  <div class="wrapper">
+    <div class="fl_left"><img src="https://webtestingcourse.dequecloud.com/images/site/homeLanding.jpg" alt="A modern computer setup with a large monitor, keyboard, and mouse on a desk."></div>
+    <div class="fl_right">
+      <h2>Welcome to Gefälscht CompuTech</h2>
+      <p><em>Gefälscht</em> - German for "Fake". This is a fake website, created by Deque Systems, for use during training.
+        Our clients are pointed to this site so that we can train them using an inaccessible site without having to point to the site of a real company. This site has a number of intentional accessibility problems. It is not an example of how to do things but rather how <strong>not</strong> to do them. If you're interested in knowing how you can make an accessible website, need help making your website accessible, or want to have your website tested for accessibility, please <a href="https://www.deque.com" target="_blank" rel="noopener noreferrer">contact Deque Systems</a>.</p>
+    </div>
+  </div>
+</section>
+<section id="homecontent">
+  <div class="wrapper">
+    <ul>
+      <li>
+        <h3>Parts and Supplies</h3>
+        <img class="imgl" src="https://webtestingcourse.dequecloud.com/images/site/small60-1.jpg" alt="Assorted computer parts including circuit boards and cables.">
+        <p>We sell parts and supplies for every computer we sell and even some that we don't. If we don't have a part, it doesn't exist. If it does exist and we don't have it, we'll get it. If we can't get it, we'll steal it. That's how we roll.</p>
+        <p class="readmore"><a href="https://webtestingcourse.dequecloud.com/support.php">Continue Reading <span aria-hidden="true">»</span></a></p>
+      </li>
+      <li>
+        <h3>Visit our Brick &amp; Mortar Store</h3>
+        <img class="imgl" src="https://webtestingcourse.dequecloud.com/images/site/small60-2.jpg" alt="Exterior view of the Gefälscht CompuTech store front.">
+        <p>Look at that picture. Isn't it great? Want a bigger version? Go to <a href="https://webtestingcourse.dequecloud.com/contact.php">this page</a> and take a closer look. Our opulently appointed corporate offices are located in the finest strip mall within miles. We think you'll agree that our place is the place among places when you think of a place that does our sort of thing.</p>
+        <p class="readmore"><a href="https://webtestingcourse.dequecloud.com/contact.php">Continue Reading <span aria-hidden="true">»</span></a></p>
+      </li>
+      <li class="last">
+        <h3>In Home Computer Service</h3>
+        <img class="imgl" src="https://webtestingcourse.dequecloud.com/images/site/small60-3.jpg" alt="A technician working on a laptop in a home setting.">
+        <p>You don't like our place? Then we'll come to your place. We can fix your stuff in your home for a sizeable surcharge. We'll get there at a time that is incredibly inconvenient to you and come unprepared for the task at hand. You'll tell all your friends what great service you received!</p>
+        <p class="readmore"><a href="https://webtestingcourse.dequecloud.com/support.php">Continue Reading <span aria-hidden="true">»</span></a></p>
+      </li>
+    </ul>
+  </div>
+</section>
+<section id="imageline" aria-labelledby="products-heading">
+  <h2 id="products-heading" class="sr-only">Featured Products</h2>
+  <div class="wrapper">
+    <ul>
+      <li><a href="https://webtestingcourse.dequecloud.com/desktops.php"><img src="https://webtestingcourse.dequecloud.com/images/site/small174-1.jpg" alt="Desktop computer with a sleek black monitor."></a></li>
+      <li><a href="https://webtestingcourse.dequecloud.com/desktops.php"><img src="https://webtestingcourse.dequecloud.com/images/site/small174-2.jpg" alt="Another desktop computer with a large, curved monitor."></a></li>
+      <li><a href="https://webtestingcourse.dequecloud.com/laptopsandnotebooks.php"><img src="https://webtestingcourse.dequecloud.com/images/site/small174-3.jpg" alt="Open silver laptop on a desk."></a></li>
+      <li><a href="https://webtestingcourse.dequecloud.com/laptopsandnotebooks.php"><img src="https://webtestingcourse.dequecloud.com/images/site/small174-4.jpg" alt="Closed black laptop with a keyboard visible."></a></li>
+      <li class="last"><a href="https://webtestingcourse.dequecloud.com/laptopsandnotebooks.php"><img src="https://webtestingcourse.dequecloud.com/images/site/small174-5.jpg" alt="A thin, modern laptop with a bright screen."></a></li>
+    </ul>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div id="footer">
+    <div class="wrapper">
+      <div class="footbox">
+        <h3>Laptops &amp; Notebooks</h3>
+        <ul>
+          <li><a href="https://webtestingcourse.dequecloud.com/laptop1.php">Fregatte 17</a></li>
+          <li><a href="https://webtestingcourse.dequecloud.com/laptop2.php">Abgenutzt 15</a></li>
+          <li><a href="https://webtestingcourse.dequecloud.com/laptop3.php">Backstein 21</a></li>
+        </ul>
+      </div>
+      <div class="footbox">
+        <h3>Desktops</h3>
+        <ul>
+          <li><a href="https://webtestingcourse.dequecloud.com/desktop1.php">Beschissen 750</a></li>
+          <li><a href="https://webtestingcourse.dequecloud.com/desktop2.php">Rindviecher 1000</a></li>
+          <li><a href="https://webtestingcourse.dequecloud.com/desktop3.php">Verrottet 875</a></li>
+        </ul>
+      </div>
+      <div class="footbox">
+        <h3>Test Course Materials</h3>
+        <ul>
+          <li><a href="https://webtestingcourse.dequecloud.com/dragoncheatsheet.php">Dragon Cheat Sheet</a></li>
+          <li><a href="https://webtestingcourse.dequecloud.com/jawscheatsheet.php">JAWS Cheat Sheet</a></li>
+          <li><a href="https://webtestingcourse.dequecloud.com/sampletestcasetemplate.php">Sample Test Case Template</a></li>
+          <li><a href="https://webtestingcourse.dequecloud.com/sampleissuetemplate.php">Sample Issue Template</a></li>
+          <li><a href="https://webtestingcourse.dequecloud.com/photocredits.php">Photo Credits</a></li>
+        </ul>
+      </div>
+      <div class="footbox">
+        <h3>Cart</h3>
+        <ul>
+          <li><a href="https://webtestingcourse.dequecloud.com/cart.php" aria-label="View your shopping cart">Cart</a></li>
+        </ul>
+      </div>
+      <div class="footbox last">
+        <h3>Support</h3>
+        <ul>
+          <li><a href="https://webtestingcourse.dequecloud.com/support.php" aria-label="Get answers to support questions">Support</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="copyright">
+    <div class="wrapper">
+      <p class="fl_left">Copyright © 2025 - All Rights Reserved - <a href="https://webtestingcourse.dequecloud.com/">Gefälscht</a></p>
+      <p class="fl_right">Gefälscht CompuTech</p>
+    </div>
+  </div>
+</footer>
+</div>
+</body>
+</html>
+1. Added `<!DOCTYPE html>` and ensured `lang="en"` on the `<html>` tag.
+2. Simplified the `<title>` element to "Gefälscht CompuTech - Home".
+3. Converted all relative URLs for images, scripts, and CSS to absolute URLs using the provided root URL.
+4. Inlined all CSS rules from `reset.css`, `layout.css`, and the original inline `<style>` block into a single `<style>` tag in the `<head>`.
+5. Inlined all JavaScript code into a single `<script>` tag in the `<head>`.
+6. Corrected color contrast issues for text and background combinations across the entire site to meet WCAG AA requirements.
+7. Replaced generic `div` elements with appropriate semantic HTML5 elements (`<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`) for improved document structure and accessibility.
+8. Corrected the heading hierarchy: `<h1>` for the main site title, `<h2>` for primary content sections, and `<h3>` for sub-sections (e.g., within the footer).
+9. Added descriptive `alt` text to all `<img>` tags to provide meaningful alternatives for users who cannot see the images.
+10. Improved form accessibility for the search input by adding a visually hidden `<label>` (using `sr-only` class) and replacing the `onfocus` attribute with the `placeholder` attribute.
+11. Added `aria-current="page"` to the active navigation link to indicate the current page to screen reader users.
+12. Converted the non-keyboard accessible `pseudolink` (`<span>` with `onclick`) to a standard `<a>` tag with a proper `href`.
+13. Added `rel="noopener noreferrer"` to external links with `target="_blank"` for security and accessibility best practices.
+14. Shortened verbose link texts in the footer (e.g., "Cart", "Support") to be more concise and added `aria-label` attributes for additional context where beneficial.
+15. Implemented a visible `outline` for `:focus` states on all interactive elements to enhance keyboard navigation usability.
+16. Added an `sr-only` CSS class definition to visually hide elements while keeping them accessible to screen readers.
+17. Replaced `br class="clear"` elements with CSS-based float clearing methods (e.g., `overflow: hidden;` on parent containers).
+18. Removed the outdated `html5shiv` script, as it's largely unnecessary for modern browsers.
+19. Defined styles for `odd_row` and `even_row` classes (used by the jQuery script for table striping) ensuring sufficient color contrast for the text and background.
