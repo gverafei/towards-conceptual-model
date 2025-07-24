@@ -3,11 +3,14 @@
 
 <center><img src="code/images/model.jpg" style="margin:auto; width:100%"/></center>
 
-This repository contains the source code and associated files to replicate the experiments described in our submission to *The 13th International Conference on Software Engineering Research and Innovation (CONISOFT 2025)* (Paper ID: 61). This README provides an overview of the repository structure, manuscript details, and usage instructions.
+This repository contains the source code and associated files to replicate the experiments described in our submission to *The 13th International Conference on Software Engineering Research and Innovation (CONISOFT 2025)* (Paper ID: 61). 
+
+This README provides an overview of the repository structure, manuscript details, and usage instructions.
 
 ## Manuscript Information
 
 **Title:** Towards a Conceptual Model for AI-Driven Web Accessibility Remediation: A Prompt-Based Approach
+
 **Paper ID:** 61
 
 ### Authors
